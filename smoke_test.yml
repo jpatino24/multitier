@@ -1,5 +1,5 @@
 ---
-- name: Deploy haproxy load balancer
+- name: Smoketest
   hosts: app_servers:database_servers
   gather_facts: true 
   become: true
