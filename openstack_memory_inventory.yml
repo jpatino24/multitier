@@ -1,0 +1,9 @@
+---
+- name: Deploy, configure, and populate flask repo and virtualenv
+  hosts: localhost
+  become: true
+  gather_facts: true
+
+  roles:
+
+    - meminv
